@@ -12,19 +12,19 @@ import App from "./components/description";
 /*import App from "./components/admin_description";
 import { BrowserRouter } from "react-router-dom";
 import ContextComponent from "./components/RouteComponent";
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./reportWebVitals";*/
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename={window.location.pathname || ''}>
-      <ContextComponent />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
-);*/
-ReactDOM.render(
+);
+/*ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("root")*/
 );
